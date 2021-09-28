@@ -51,8 +51,8 @@ int main(void)
 	 return 0;
 };
 
-\\дз(1 вариант)
-\\1
+//дз(1 вариант)
+//1
 #include <stdio.h>
 #include <math.h>
 int main()
