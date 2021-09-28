@@ -50,3 +50,15 @@ int main(void)
 	 printf("%d %d %d %d %d %d %d %d %l %lf %lf\n", q, w, e, f, d, m, n, l, s, c, x);
 	 return 0;
 };
+
+\\дз(1 вариант)
+\\1
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	double pi;
+pi = 3.14159;
+printf("%.2lf\n", pi);
+return 0;
+}
