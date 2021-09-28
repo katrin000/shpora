@@ -120,4 +120,40 @@ int main()
 	x = 12*a*a+7*a-16;
     printf("x=%d",x);
 	return 0;
+//25
+#include <stdio.h>
+#include <math.h>
+int main()
+{
 
+	int a=5;
+	int p;
+	p = a*a;
+    printf("p=%d",p);
+	return 0;
+}
+//39
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+
+	int x=5, y=10;
+	double z;
+	z = (x + (2 + y) / x * x) / (y + (1 / sqrt(x * x + 10)));
+    printf("z=%lf",z);
+	return 0;
+}
+
+
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+
+	 int x=45, y=-1;
+	long double q;
+	q =2.8*sin(x)+ abs(y);
+    printf("q=%lf",q);
+	return 0;
+}
