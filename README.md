@@ -69,6 +69,30 @@ int main()
 {
 	int x = 1, y = 13, z = 49;
 
-	printf("x=%d, y=%d, z=%d", x, y, z);
+	printf("%d %d %d", x, y,z);
 	return 0;
 }
+//9
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int x = 50, y = 10;
+
+	printf("%d\n%d\n", x, y);
+	return 0;
+}
+
+//14
+ 2 * x,
+		 sin(x),
+		 a^ 2,
+		sqrt(x),
+		 | n | ,
+		 5 * cos(y),
+		 -7.5 * a ^ 2,
+		3 * sqrt(x),
+		 sin(a)* cos(b) + cos(a) * sin(b),
+		a* sqrt(2 * b),
+		3 * sin(2 * a) * cos(3 * b),
+		-5 * sqrt(x + sqrt(y);
