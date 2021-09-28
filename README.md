@@ -62,3 +62,13 @@ pi = 3.14159;
 printf("%.2lf\n", pi);
 return 0;
 }
+//5
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int x = 1, y = 13, z = 49;
+
+	printf("x=%d, y=%d, z=%d", x, y, z);
+	return 0;
+}
