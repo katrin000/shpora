@@ -86,13 +86,38 @@ int main()
 //14
  2 * x,
 		 sin(x),
-		 a^ 2,
+		 a*a,
 		sqrt(x),
 		 | n | ,
 		 5 * cos(y),
-		 -7.5 * a ^ 2,
+		 -7.5 * a*a,
 		3 * sqrt(x),
 		 sin(a)* cos(b) + cos(a) * sin(b),
 		a* sqrt(2 * b),
 		3 * sin(2 * a) * cos(3 * b),
 		-5 * sqrt(x + sqrt(y);
+		
+//22
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+
+	int x =1;
+	int y;
+	y = 7 * x*x - 3 * x + 6;
+    printf("y=%d",y);
+	return 0;
+}
+
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+
+	int a=5;
+	int x;
+	x = 12*a*a+7*a-16;
+    printf("x=%d",x);
+	return 0;
+
